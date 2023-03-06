@@ -5,5 +5,14 @@ public class Main {
             System.out.println(i);
         }
 
+        int number = 5;
+        int exponent = 1;
+        int max = 10000;
+        while (Math.pow(number,exponent) <= max){
+            System.out.println(Math.pow(number,exponent));
+            exponent++;
+        }
+
+        
     }
 }
