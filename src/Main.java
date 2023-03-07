@@ -13,6 +13,10 @@ public class Main {
             exponent++;
         }
 
+        for (int i = 5; i <= 10000; i = i * 5) {
+            System.out.println(i);
+        }
+
         for (int i = 40; i <= 60; i = i + 4) {
             System.out.println(i);
         }
